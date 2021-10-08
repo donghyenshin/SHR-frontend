@@ -112,6 +112,17 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     padding-left: 20px;
     color: #374856;
 }
+.move > h3 {
+    padding-top: 30px;
+    padding-left: 20px;
+   
+    color: #374856;
+}
+.move > h4 {
+    padding-left: 20px;
+   
+    color: #374856;
+}
 
 
 .move{ transition: 0.4s; }
@@ -120,6 +131,13 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     transform: translateY(-5px);
 }
 .move:hover > h1 {
+    color: #fff;
+}
+.move:hover > h3 {
+    color: #fff;
+}
+
+.move:hover > h4 {
     color: #fff;
 }
 
