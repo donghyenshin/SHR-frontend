@@ -104,6 +104,13 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     padding-left: 15px;
     padding-top: 15px;
 }
+.in-box2 > h3 {
+    color: #374856;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
 
 .sbox {
     width: 100px;
@@ -184,6 +191,9 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .move1:hover > .in-box2 > h1 {
     color: #fff;
 }
+.move1:hover > .in-box2 > h3 {
+    color: #fff;
+}
 
 .move2{ transition: 0.4s; }
 .move2:hover {
@@ -191,6 +201,9 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     transform: translateY(-5px);
 }
 .move2:hover >.in-box2 > h1 {
+    color: #fff;
+}
+.move2:hover > .in-box2 > h3 {
     color: #fff;
 }
 
@@ -203,6 +216,9 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .move3:hover > .in-box2 > h1 {
     color: #fff;
 }
+.move3:hover > .in-box2 > h3 {
+    color: #fff;
+}
 
 .move4{ transition: 0.4s; }
 .move4:hover {
@@ -212,11 +228,17 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .move4:hover > .in-box2 > h1 {
     color: #fff;
 }
+.move4:hover > .in-box2 > h3 {
+    color: #fff;
+}
 .move5{ transition: 0.4s; }
 .move5:hover {
     background-color: #fbd94e;
     transform: translateY(-5px);
 }
 .move5:hover > .in-box2 >  h1 {
+    color: #fff;
+}
+.move5:hover > .in-box2 > h3 {
     color: #fff;
 }
