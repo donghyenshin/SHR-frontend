@@ -136,7 +136,7 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     background-color: #fbcfb7;
     transform: translateY(-5px);
 }
-.move:hover > h1 {
+.move:hover .bbox > h1 {
     color: #fff;
 }
 
