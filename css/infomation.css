@@ -91,6 +91,7 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     width: 1200px;
     height: 300px;
     background-color: #F2F6FC;
+    border-radius: 15px;
 
 }
 .line {
@@ -101,7 +102,7 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     width: 1200px;
     height: 300px;
     background-color: #F2F6FC;
-
+    border-radius: 15px;
 }
 .move > svg {
     margin-top: 15px;
