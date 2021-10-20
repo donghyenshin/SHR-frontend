@@ -31,7 +31,7 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 } 
  .btns {
     width: 50px;
-    height: 350px;
+    height: 500px;
     background-color: #36A1EA;
     margin-left: 57px;
     margin-top: 300px;
@@ -76,60 +76,54 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 }
 
 
-/* 박스 */
-.boxs  {
-    z-index: 1;
+.click:hover svg path{
+    fill: black;
+}
+
+
+.boxs {
+    z-index: 11;
     width: 1200px;
-    height: 610px;
+    height: 620px;
+
 }
-.box1 {
-    display: flex;
-    justify-content: space-between;
+.schedule {
+    width: 1200px;
+    height: 300px;
+    background-color: #F2F6FC;
+
 }
-.bbox > h1 {
+.line {
+    height: 10px;
+}
+
+.status {
+    width: 1200px;
+    height: 300px;
+    background-color: #F2F6FC;
+
+}
+.move > svg {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.move > h1 {
     padding-top: 10px;
     padding-left: 20px;
     color: #374856;
 }
-.school {
-    width: 595px;
-    height: 300px;
-    background-color: #F2F6FC;
-    border-radius: 8px;
-
+.move > h3 {
+    padding-top: 30px;
+    padding-left: 20px;
+   
+    color: #374856;
+}
+.move > h4 {
+    padding-left: 20px;
+   
+    color: #374856;
 }
 
-
-.class {
-    width: 595px;
-    height: 300px;
-    background-color: #F2F6FC;
-    border-radius: 8px;
-
-    
-}
-
-.line {
-    height: 10px;
-}
-.box2 {
-    display: flex;
-    justify-content: space-between;
-}
-.info {
-    width: 595px;
-    height: 300px;
-    background-color: #F2F6FC;
-    border-radius: 8px;
-}
-
-.course {
-    width: 595px;
-    height: 300px;
-    background-color: #F2F6FC;
-    border-radius: 8px;
-
-}
 
 .move{ transition: 0.4s; }
 .move:hover {
@@ -139,31 +133,12 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .move:hover > h1 {
     color: #fff;
 }
-
-.click:hover svg path{
-    fill: black;
+.move:hover > h3 {
+    color: #fff;
 }
 
-.sbox {
-    display: flex;
-    justify-content: flex-end;
-    
-    
-    
-}
-.sbox > svg {
-    margin-bottom: 10px;
-    margin-right: 10px;
-}
-.bbox  {
-    width: 595px;
-    height: 130px;
+.move:hover > h4 {
+    color: #fff;
 }
 
 
-
-
-
-
-
-/* #fbcfb7 */
