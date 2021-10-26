@@ -83,58 +83,26 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .box {
     width: 1200px;
     height: 620px;
-    z-index: 1;
-    background-color: #F2F6FC;
-    border-radius: 15px;
-}
-
-.box_name > svg {
-    margin-top: 20px;
-    margin-left: 20px;
-    top: 20px;
-    left: 20px;
-    display: block;
-}
-
-.box_name > h1 {
-    margin-left: 20px;
-    color: #374957;
-}
-
-.box_sub_name {
-    height: 70px;
-    
-}
-.box_sub_name > h2 {
-    color: #374957;
-    padding-left: 20px;
-}
-.calendar {
-    padding-left: 20px;
-    width: 1180px;
-    height: 225px;
     display: flex;
     justify-content: space-between;
-
-}
-.boxs {
-    width: 225px;
-    height: 225px;
-    background-color: #f1dcff;
-    border-radius: 15px;
 }
 
-.boxs > h1 {
-    color: #fff;
-    padding-top: 10px;
-    padding-left: 10px;
+.group {
+    width: 595px;
+    height: 600px;
+    background-color: #F2F6FC;
+    border-radius: 10px;
+    z-index: 1;
+
 
 }
-
-.boxs > h2 {
-    color: #fff;
-    margin-top: 50px;
-    margin-left: 10px;
-
+.group > h1 {
+    margin-left: 250px;
+    margin-top: 10px;
+    color: #374957;
 }
+
+
+
+
 
