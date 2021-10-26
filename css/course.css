@@ -160,7 +160,9 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     height: 130px;
 }
 
-
+.move:hover > .sbox > svg path {
+    fill: #fff;
+}
 
 
 

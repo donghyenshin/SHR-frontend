@@ -143,4 +143,7 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     color: #fff;
 }
 
+.move:hover > svg path {
+    fill: #fff;
+}
 

@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+/* 버튼 영역 */
+.warp {
+    width: 1920px;
+    height: 100vh;
+    background-color: #36A1EA;
+    display: flex;
+}
+h1 { font-family: 'Noto Sans KR', sans-serif;}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: #36A1EA;
+    position: fixed;
+    left: 40px;
+    top: 70px;
+} 
+ .btns {
+    width: 50px;
+    height: 500px;
+    background-color: #36A1EA;
+    margin-left: 57px;
+    margin-top: 300px;
+    line-height: 100px;
+   
+}
+
+
+
+/* 백그라운드 */
+.content {
+    z-index: 10;
+    width: 1750px;
+    height: 100vh; 
+    background-color: #fff;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.I {
+    display: block;
+    position: fixed;
+    left: 1550px;
+    
+}
+.triangle {
+    display: block;
+    position: fixed;
+    left: 400px;
+    top: 0;
+    
+  
+}
+.Ellipse {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 1500px;
+}
+
+
+.click:hover svg path{
+    fill: black;
+}
+
+.boxs {
+    z-index: 11;
+    width: 1200px;
+    height: 610px;
+
+    
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.in-box1 {
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.in-box2 > h1 {
+    color: #374856;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.in-box2 > h3 {
+    color: #374856;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+
+.sbox {
+    width: 100px;
+    height: 100px;   
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.sbox > svg{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.soft {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    background-color: #F2F6FC;
+    border-radius: 8px;
+
+}
+/* #ffb658 */
+
+.smart {
+    width: 390px;
+    height: 300px;
+    background-color: #F2F6FC;
+    border-radius: 8px;
+}
+/* 6cd049 */
+
+
+
+.line {
+    height: 10px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+}
+.com {
+    width: 395px;
+    height: 300px;
+    background-color: #F2F6FC;
+    border-radius: 8px;
+}
+/* 7183e2 */
+
+
+.desgin {
+    width: 395px;
+    height: 300px;
+    background-color: #F2F6FC;
+    border-radius: 8px;
+}
+/* db6161 */
+
+.management {
+    width: 390px;
+    height: 300px;
+    background-color: #F2F6FC;
+    border-radius: 8px;
+}
+/* fbd94e */
+
+
+
+
+.move1{ transition: 0.4s; }
+.move1:hover {
+    background-color: #ffb658;
+    transform: translateY(-5px);
+}
+.move1:hover > .in-box2 > h1 {
+    color: #fff;
+}
+.move1:hover > .in-box2 > h3 {
+    color: #fff;
+}
+
+.move2{ transition: 0.4s; }
+.move2:hover {
+    background-color: #6cd049;
+    transform: translateY(-5px);
+}
+.move2:hover >.in-box2 > h1 {
+    color: #fff;
+}
+.move2:hover > .in-box2 > h3 {
+    color: #fff;
+}
+
+
+.move3{ transition: 0.4s; }
+.move3:hover {
+    background-color: #7183e2;
+    transform: translateY(-5px);
+}
+.move3:hover > .in-box2 > h1 {
+    color: #fff;
+}
+.move3:hover > .in-box2 > h3 {
+    color: #fff;
+}
+
+.move4{ transition: 0.4s; }
+.move4:hover {
+    background-color: #db6161;
+    transform: translateY(-5px);
+}
+.move4:hover > .in-box2 > h1 {
+    color: #fff;
+}
+.move4:hover > .in-box2 > h3 {
+    color: #fff;
+}
+.move5{ transition: 0.4s; }
+.move5:hover {
+    background-color: #fbd94e;
+    transform: translateY(-5px);
+}
+.move5:hover > .in-box2 >  h1 {
+    color: #fff;
+}
+.move5:hover > .in-box2 > h3 {
+    color: #fff;
+}
