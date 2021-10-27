@@ -15,7 +15,7 @@ a {
 .warp {
     width: 1920px;
     height: 100vh;
-    background-color: #647EBF;
+    background-color: #6571AB;
     display: flex;
 }
 h1 { font-family: 'Noto Sans KR', sans-serif;}
@@ -24,7 +24,6 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .logo {
     width: 100px;
     height: 100px;
-    background-color: #647EBF;
     position: fixed;
     left: 40px;
     top: 70px;
@@ -32,7 +31,6 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
  .btns {
     width: 50px;
     height: 500px;
-    background-color: #647EBF;
     margin-left: 57px;
     margin-top: 300px;
     line-height: 100px;
@@ -40,39 +38,53 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 }
 
 
-
 /* 백그라운드 */
 .content {
+    margin-top: 2em;
     z-index: 10;
-    width: 1750px;
-    height: 100vh; 
+    width: calc(100% - 180px);
+    height: calc(100% - 2em);
     background-color: #fff;
     margin-left: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 50px;
+    /* border-bottom-left-radius: 50px; */
     border-top-left-radius: 50px;
+    overflow: hidden;
+    position: relative;
 }
 .I {
     display: block;
-    position: fixed;
-    left: 1550px;
+    position: absolute;
+    left: 1400px;
     
 }
 .triangle {
     display: block;
-    position: fixed;
-    left: 400px;
+    position: absolute;
+    left: 300px;
     top: 0;
     
   
 }
 .Ellipse {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 1500px;
+}
+
+.click svg path{
+    transition : 0.3s;
+}
+
+.click.select path{
+    fill: #FFD468;
+}
+
+.click:hover svg path{
+    opacity: 0.3;
 }
 
 
@@ -80,7 +92,6 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .boxs  {
     z-index: 1;
     width: 1200px;
-    height: 610px;
 }
 .box1 {
     display: flex;
@@ -131,9 +142,13 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 
 }
 
-.move{ transition: 0.4s; }
+.move{ transition: 0.4s; margin: 1em; padding: 0.5em;}
+.move * {transition: 0.4s;
+    fill: #374957;
+
+}
 .move:hover {
-    background-color: #fbcfb7;
+    background-color: #687BD3;
     transform: translateY(-5px);
 }
 .move:hover .bbox > h1 {
@@ -142,8 +157,9 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .click svg path{
     transition : 0.3s;
 }
-.click:hover svg path{
-    fill: #2A3C6A;
+
+.move:hover > .sbox > svg > rect {
+    fill: #fff  ;
 }
 
 .sbox {
@@ -166,7 +182,7 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     fill: #fff;
 }
 
-
+body { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none }
 
 
 

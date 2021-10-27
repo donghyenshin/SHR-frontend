@@ -242,3 +242,4 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .move5:hover > .in-box2 > h3 {
     color: #fff;
 }
+body { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none }

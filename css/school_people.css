@@ -11,11 +11,12 @@ a {
     color: inherit;
 
 }
+
 /* 버튼 영역 */
 .warp {
     width: 1920px;
     height: 100vh;
-    background-color: #647EBF;
+    background-color: #6571AB;
     display: flex;
 }
 h1 { font-family: 'Noto Sans KR', sans-serif;}
@@ -24,7 +25,6 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 .logo {
     width: 100px;
     height: 100px;
-    background-color: #647EBF;
     position: fixed;
     left: 40px;
     top: 70px;
@@ -32,7 +32,6 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
  .btns {
     width: 50px;
     height: 500px;
-    background-color: #647EBF;
     margin-left: 57px;
     margin-top: 300px;
     line-height: 100px;
@@ -40,58 +39,66 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 }
 
 
-
 /* 백그라운드 */
 .content {
+    margin-top: 2em;
     z-index: 10;
-    width: 1750px;
-    height: 100vh; 
+    width: calc(100% - 180px);
+    height: calc(100% - 2em);
     background-color: #fff;
     margin-left: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 50px;
+    /* border-bottom-left-radius: 50px; */
     border-top-left-radius: 50px;
+    overflow: hidden;
+    position: relative;
 }
 .I {
     display: block;
-    position: fixed;
-    left: 1550px;
+    position: absolute;
+    left: 1400px;
     
 }
 .triangle {
     display: block;
-    position: fixed;
-    left: 400px;
+    position: absolute;
+    left: 300px;
     top: 0;
     
   
 }
 .Ellipse {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 1500px;
 }
+
 .click svg path{
     transition : 0.3s;
 }
 
+.click.select path{
+    fill: #FFD468;
+}
+
 .click:hover svg path{
-    fill: #2A3C6A;
+    opacity: 0.3;
 }
 
 .box {
-    width: 1200px;
-    height: 620px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
 .group {
-    width: 595px;
-    height: 600px;
+    margin: 0 1em;
+    padding: 2em 0;
+    width: calc(95% / 2);
+    height: 800px;
     background-color: #F2F6FC;
     border-radius: 10px;
     z-index: 1;
@@ -100,11 +107,62 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
 }
 .group > h1 {
     margin-left: 250px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #374957;
+}
+.school_people_table{
+    width : 90%;
+    margin: 1em auto;
+    margin-top: 3em;
+    border-radius: 10px;
+    border-collapse : collapse;
+    overflow: hidden;
+}
+
+.school_people_table > thead th{
+    background-color: #6571AB;
+    padding: 10px 20px;
+    text-align: left;
+    color: #fff;
+    height: 60px;
+}
+
+.school_people_table > tbody td{
+    padding: 10px 20px;
+    height: 70px;
+    background-color: #fff;
+}
+
+.school_people_table > tbody > tr:nth-child(even) td{
+    background-color: #DAE2F4;
 }
 
 
+.school_people_table2{
+    width : 90%;
+    margin: 1em auto;
+    margin-top: 3em;
+    border-radius: 10px;
+    border-collapse : collapse;
+    overflow: hidden;
+}
 
+.school_people_table2 > thead th{
+    background-color: #6571AB;
 
+    text-align: center;
+    color: #fff;
+    height: 60px;
+}
 
+.school_people_table2 > tbody td{
+    padding: 20px 10px;
+    height: 70px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.school_people_table2 > tbody > tr:nth-child(even) td{
+    background-color: #DAE2F4;
+}
+body { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none }

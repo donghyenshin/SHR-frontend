@@ -83,3 +83,4 @@ h1 { font-family: 'Noto Sans KR', sans-serif;}
     transition : 0.3s;
 }
 
+body { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none }
